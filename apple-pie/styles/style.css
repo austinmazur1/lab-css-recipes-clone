@@ -1,0 +1,75 @@
+h1,
+body,
+html,
+main {
+    margin: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+
+.container {
+    background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+    height: 50vh;
+    background-size: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.p-one {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+    font-weight: 200;
+    justify-content: center;
+}
+
+.p-one img {
+    height: 40%;
+    width: 40%;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.border1,
+.border2 {
+    border: 1px solid grey;
+}
+
+.p-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h3 {
+    font-weight: 200;
+    padding-top: 25px;
+}
+
+.ingredient-list {
+    list-style: none;
+}
+
+#prep {
+    height: 40%;
+    width: 40%;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
